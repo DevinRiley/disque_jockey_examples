@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    disque (0.0.6)
+      redic (~> 1.5.0)
+    disque_jockey (0.0.1)
+      disque
+      logging
+    hiredis (0.6.0)
+    little-plugger (1.1.3)
+    logging (2.0.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
+    multi_json (1.11.1)
+    redic (1.5.0)
+      hiredis
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  disque_jockey

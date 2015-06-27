@@ -19,10 +19,10 @@ bundle install
 Start the example workers by running disque_jockey from the command line (you must have already built and installed disque_jockey from your local disque_jockey repo).
 
 ````
-disque_jockey
+disque_jockey start
 ````
 
-You should see DisqueJockey begin logging to STDOUT.
+You should see DisqueJockey begin logging to STDOUT, like so:
 
 ````
 [2015-05-24T09:17:33] INFO  DisqueJockey: Starting worker group with PID 36175...

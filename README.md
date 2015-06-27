@@ -9,6 +9,10 @@ See https://github.com/antirez/disque for source and build instructions.
 
 
 Once you have a disque server running locally, clone down this repo and cd into its directory
+````
+git clone git@github.com:DevinRiley/disque_jockey_examples.git
+cd disque_jockey_examples
+````
 
 Then install disque_jockey and its dependencies
 
